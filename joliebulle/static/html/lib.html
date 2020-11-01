@@ -48,7 +48,7 @@
       <div class="recipe-list">
         <div class="recipe-item" ng-class="{'selected' : activeClass == recipe.path}" ng-repeat="recipe in recipes | filter:searchText.toLowerCase()" ng-click="recipeSelected(recipe)">
           <span class="brewer-name">{{recipe.brewer}}</span> <button class="btn-link btn-xs deleteButton" ng-click="deleteLib(recipe)"><i class="fa fa-times"></i></button>
-          <div class="recipe-name"><a href="toto" >{{recipe.name}}</a>
+          <div class="recipe-name"><a href="" >{{recipe.name}}</a>
             <div class="recipe-style">{{recipe.style}}</div>
           </div>
         </div>
