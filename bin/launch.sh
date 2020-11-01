@@ -1,3 +1,3 @@
  #!/bin/sh
 
-python ../joliebulle/main.py
+python3 ../joliebulle/main.py
